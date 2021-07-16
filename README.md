@@ -35,4 +35,3 @@ changing a code in your branch that has previously been changed by another perso
 in the team since you last merged with master.
 - delete a branch using the git branch -d <branch name> command
 - import changes made from github to the local machine using the git pull command
--
