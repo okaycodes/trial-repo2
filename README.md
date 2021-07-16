@@ -20,3 +20,4 @@ server via my terminal in the text editor
 and the branch that is currently active. If the get diff is used on the same branch
 it will show changes such as those committed and those that haven't been.
 - type q to exit the difference prompt
+- merging a file is a good thing.
