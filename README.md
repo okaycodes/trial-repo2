@@ -9,7 +9,9 @@ server via my terminal in the text editor
 - create files
 - write your code,
 - use the git add command to convert it to a repository
-- use git commit to commit changes to git still within the local computer
+- use git commit -m to commit changes to git still within the local computer
+- for modified files it is possible to both add and commit at the same time using
+the git commit -am command
 - use git push command to push said changes to github
 
 ### branching
@@ -20,3 +22,8 @@ server via my terminal in the text editor
 and the branch that is currently active. If the get diff is used on the same branch
 it will show changes such as those committed and those that haven't been.
 - type q to exit the difference prompt
+- merge a branch to the main using the git merge command.
+- merge conflict can arise when main is being merged by multiple people working on
+different branches such that git cannot decide which codes to keep and which to delete
+- delete a branch using the git branch -d <branch name> command
+- import changes made from github to the local machine using the git pull command
