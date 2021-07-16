@@ -35,3 +35,7 @@ This is an attempt at uploading files from my local computer to the github serve
 - undo a commit using the HEAD~1 command. the ~1 tells the system to revert the last commit made
 - undoing multiple commits isn't straightforward but one can see a log of all commits made using the git log command. It displays the commit as well as the commit messages which can help to identify what was done and when and also aid the reversal of commits, it also displays a commit id with which you can reset the commit using the git reset <commitId> command.
 - it is important to note that uncommitting does not undo changes i.e delete the changes but rather as the name implies uncommit those changes. To actually remove those changes you use git reset --hard <commitId> command
+
+### Forking
+- this allows us to create a branch off other peoples repositories that we likely do not have access to copying it to our local computer for local consumption. E.g. copying somebody else's project so we can have a better look at it and make our own tweaks and changes.
+- forking is normally done on the github platform and not on the local terminal
