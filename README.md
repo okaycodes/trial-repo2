@@ -23,7 +23,16 @@ and the branch that is currently active. If the get diff is used on the same bra
 it will show changes such as those committed and those that haven't been.
 - type q to exit the difference prompt
 - merge a branch to the main using the git merge command.
+- normally merging is not done from local computer especially as git is used in
+collaboration work with others, on github you ought to make a pull request and
+have the code reviewed before it is merged. However, while working on a branch of
+master with others, you will likely want to or need to merge master to your branch
+so that your branch can be up to date with all the extant changes on master.
 - merge conflict can arise when main is being merged by multiple people working on
 different branches such that git cannot decide which codes to keep and which to delete
+- merging master to a branch is a common source for merging conflict as you might be
+changing a code in your branch that has previously been changed by another person working
+in the team since you last merged with master.
 - delete a branch using the git branch -d <branch name> command
 - import changes made from github to the local machine using the git pull command
+-
